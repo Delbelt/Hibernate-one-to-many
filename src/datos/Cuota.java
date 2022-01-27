@@ -136,7 +136,7 @@ public class Cuota {
 
 	@Override
 	public String toString() {
-		return "Cuota [idCuota=" + idCuota + ", nroCuota=" + nroCuota + ", fechaVencimiento=" + fechaVencimiento
+		return "Cuota [nroCuota=" + nroCuota + ", fechaVencimiento=" + fechaVencimiento
 				+ ", saldoPendiente=" + saldoPendiente + ", amortizacion=" + amortizacion + ", interesCuota="
 				+ interesCuota + ", cuota=" + cuota + ", deuda=" + deuda + ", cancelada=" + cancelada + ", fechaDePago="
 				+ fechaDePago + ", punitorios=" + punitorios + "]";
